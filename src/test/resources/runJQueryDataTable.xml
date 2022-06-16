@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+
+
+	<parameter name="url" value ="https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/" />
+	
+	<test name="Run on firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.jquery.Level_10_DataTable_DataGrid" />
+		</classes>
+	</test>
+
+
+		<!-- <test name="Run on coccoc"> <parameter name="browser" value="coccoc" 
+			/> <classes> <class name="com.nopcommerce.user.Level_04_Multiple_Browser" 
+			/> </classes> </test> <test name="Run on brave"> <parameter name="browser" 
+			value="brave" /> <classes> <class name="com.nopcommerce.user.Level_04_Multiple_Browser" 
+			/> </classes> </test> -->
+
+</suite> 
